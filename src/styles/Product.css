@@ -1,0 +1,52 @@
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 430px;
+  width: 250px;
+  margin: 10px;
+  padding: 5px 8px;
+
+  border: 1px solid lightgreen;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  transition: 0.4s transform ease-in-out;
+}
+
+.product__dividor {
+  background-color: lightgreen;
+  height: 10px;
+  width: 70px;
+  border-radius: 16px;
+  max-width: 30%;
+  margin: 5px 0;
+}
+
+.product > h3 {
+  text-align: center;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product__statuses {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.product__status {
+  background-color: lightgreen;
+  margin: 3px;
+  padding: 5px;
+  color: white;
+  font-weight: 700;
+
+  border-radius: 16px;
+  text-transform: capitalize;
+}

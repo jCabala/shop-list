@@ -1,0 +1,29 @@
+.app__productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.app > select {
+  margin: 10px 0;
+
+  padding: 10px;
+  font-size: 16px;
+
+  border: 2px solid lightgreen;
+  border-radius: 16px;
+  text-transform: capitalize;
+}
+
+.app > select > option {
+  text-transform: capitalize;
+}
